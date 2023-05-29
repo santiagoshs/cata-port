@@ -915,7 +915,7 @@ p {
 .hero-section {
   position: relative;
   overflow: hidden;
-  height: 780px;
+  height: 713px;
   display: flex;
   align-items: center;
   background: linear-gradient(180deg, #C2FBFF 0%, rgba(255, 255, 255, 0) 93.47%);
@@ -944,12 +944,12 @@ p {
 .hero-section::after {
   content: "";
   position: absolute;
-  width: 862px;
-  height: 862px;
-  border-radius: 50%;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 100%;
   right: -150px;
-  top: -150px;
-  background: #99ECF2;
+  top: 99px;
+  background: #753B7A;
   z-index: -1;
 }
 
